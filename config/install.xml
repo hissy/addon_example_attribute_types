@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+    <attributetypes>
+        <attributetype handle="email_confirm" name="Email with Confirmation" package="example_attribute_types">
+            <categories>
+                <category handle="collection"/>
+                <category handle="user"/>
+                <category handle="file"/>
+                <category handle="site"/>
+            </categories>
+        </attributetype>
+        <attributetype handle="tos_accepted" name="I Agree to Terms" package="example_attribute_types">
+            <categories>
+                <category handle="user"/>
+                <category handle="site"/>
+            </categories>
+        </attributetype>
+    </attributetypes>
+</concrete5-cif>
